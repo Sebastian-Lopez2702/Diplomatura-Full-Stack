@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\m1u4\style_form.css">
+    <title>Formulario para contactar a Sebastian Lopez</title>
+</head>
+
+<body>
+    <h1>Complete el formulario</h1>
+    <form action="" method="">
+        <p>
+            <label for="nombre">Indique su nombre:</label>
+            <input type="text" name="nombre">
+        </p>
+
+        <p>
+            <label for="email">Indique su email:</label>
+            <input type="email" name="email">
+        </p>
+
+        <p>
+            <label for="nombre_empresa_emprendimiento">Indique el nombre de la empresa/emprendimiento que desea
+                contactarme:</label>
+            <input type="text" name="empresa/emprendimiento">
+        </p>
+
+        <p>
+            <label for="es_extrangera">La empresa/emprendimiento es extrangera?</label>
+            <input type="radio" name="es_extrangera" value="si"><label>Si</label></li>
+            <input type="radio" name="es_extrangera" value="no"><label>No</label></li>
+        </p>
+
+        <label for="lugar_empresa_emprendimiento">En el caso de que si, indique el nombre del mismo:</label>
+        <select name="lugar_empresa_emprendimiento">
+            <option value="" disabled selected>Elige una opción</option>
+            <optgroup label="America">
+                <option value="Brasil">Brasil</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Estados_Unidos">Estados Unidos</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="España">España</option>
+                <option value="Alemania">Alemania</option>
+                <option value="Italia">Italia</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Francia">Francia</option>
+            </optgroup>
+        </select>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar datos">
+        </p>
+    </form>
+</body>
+
+</html>

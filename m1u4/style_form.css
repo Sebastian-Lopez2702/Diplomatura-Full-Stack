@@ -1,0 +1,22 @@
+h1 {
+    font-size: 36px;
+}
+
+form p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form p label {
+    font-size: 24px;
+    color: #333;
+}
+
+form label {
+    font-size: 18px;
+    color: violet;
+}
+
+option {
+    color: blue;
+}

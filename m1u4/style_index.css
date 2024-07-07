@@ -1,0 +1,31 @@
+#img_cv {
+    height: 600px;
+    width: 460px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3,
+h4 {
+    text-decoration: underline;
+}
+
+h4 {
+    color: darkblue;
+}
+
+.long_text {
+    background-color: aquamarine;
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: gray;
+}
+
+.link {
+    color: red;
+}
