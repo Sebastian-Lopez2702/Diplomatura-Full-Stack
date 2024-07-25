@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: #FFF9F3;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 25px;
+}
+
+.contenedor-basico {
+    width: 90%;
+    margin: 0 auto 30px;
+}
+
+#contenido-noticia {
+    display: flex;
+    gap: 30px;
+}
+
+.seccion-izquierda {
+    flex: 2;
+}
+
+.seccion-izquierda h2 {
+    font-size: 40px;
+}
+
+#contenedor-texto {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+#contenedor-texto p {
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+}
+
+.seccion-derecha {
+    flex: 1;
+}
+
+.seccion-derecha h2 {
+    font-size: 28px;
+}
+
+.seccion-derecha p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.contenedor-basico #ficticio {
+    text-align: right;
+    font-size: 10px;
+}
