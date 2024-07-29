@@ -1,0 +1,23 @@
+.contenedor {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+ul {
+    border: 1px solid black;
+}
+
+section {
+    align-content: center;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+aside {
+    align-content: center;
+    border: 1px solid black;
+}
+
+p {
+    margin: 20px 5px 25px 5px;
+}
