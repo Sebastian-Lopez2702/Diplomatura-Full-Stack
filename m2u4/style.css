@@ -1,0 +1,39 @@
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#logo-utn {
+    height: 40px;
+}
+
+.full-height {
+    height: 100vh;
+    background-image: url('../m2u4/img/wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.display-2 {
+    font-weight: 500;
+}
+
+.h4 {
+    font-weight: 400;
+}
+
+.separator {
+    background-color: rgb(3, 158, 3);
+    margin: 20px auto;
+    margin-bottom: 20px;
+    height: 10px;
+    width: 60%;
+}
