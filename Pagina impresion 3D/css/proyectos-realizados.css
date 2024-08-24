@@ -1,4 +1,4 @@
-.projects-container {
+.contenedor-proyectos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -7,7 +7,7 @@
     margin-top: 80px;
 }
 
-.project-card {
+.proyecto {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -17,16 +17,16 @@
     transition: transform 0.45s ease;
 }
 
-.project-card:hover {
+.proyecto:hover {
     transform: scale(1.15);
 }
 
-.project-card img {
+.proyecto img {
     max-width: 100%;
     border-radius: 8px;
 }
 
-.project-card p {
+.proyecto p {
     color: #555;
     margin-top: 15px;
 }
