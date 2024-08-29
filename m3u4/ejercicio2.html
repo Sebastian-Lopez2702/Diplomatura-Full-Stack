@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #cbcbcb;
+            border-radius: 4px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <label for="texto-introducido">Textarea:</label>
+        <textarea id="texto-introducido" name="texto-introducido" required></textarea>
+
+        <p id="contador">Contador: 0</p>
+    </form>
+
+    <script src="ejercicio2.js"></script>
+
+</body>
+
+</html>
