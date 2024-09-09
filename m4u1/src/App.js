@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 
 import './styles/pages/Normalize.css'
 
+import HomePage from "./pages/HomePage";
 import Contacto from './pages/Contacto';
 import Novedades from './pages/Novedades';
 import Proyectos from './pages/Proyectos';
